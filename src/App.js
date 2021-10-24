@@ -29,12 +29,12 @@ const App = () => {
   }
 
   // fetch task
-  const fetchTask = async (id) => {
-    const res = await fetch(`http://localhost:5000/tasks/${id}`)
-    const data = await res.json()
-    console.log(data)
-    return data
-  }
+  // const fetchTask = async (id) => {
+  //   const res = await fetch(`http://localhost:5000/tasks/${id}`)
+  //   const data = await res.json()
+  //   console.log(data)
+  //   return data
+  // }
 
   //delete task
   const deleteTask = async (id) => {
